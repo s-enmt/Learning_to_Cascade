@@ -42,7 +42,7 @@ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SA
 ```
 
 python3 main.py --evalmode dynamic --batch-size 128 \
-                --evaluate-from SAVE/save_models/model_best.pth.tar \
-                --arch msdnet --data cifar100 --data-root ../dataset/cifar100/ --nBlocks 2 --step 2 --base 4 \
+                --evaluate-from /PATH/TO/save_models/model_best.pth.tar \
+                --arch msdnet --data cifar100 --data-root /PATH/TO/CIFAR100 --nBlocks 2 --step 2 --base 4 \
                 --nChannels 16 --stepmode lin_grow --use-valid --seed 0
 ```
