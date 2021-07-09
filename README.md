@@ -37,7 +37,7 @@ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SA
                 -j 16 --use-valid --seed 0 --ltc --w 1.5 --C 0.5
 ```
 
-#### test an MSDNet (block=2, step=2, base=4) on CIFAR-100:
+#### Test an MSDNet (block=2, step=2, base=4) on CIFAR-100:
 
 ```
 
